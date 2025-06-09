@@ -1,0 +1,66 @@
+# ============= #
+# Unity 特有文件 #
+# ============= #
+
+# Unity 编辑器临时文件
+[Tt]emp/
+[Oo]bj/
+[Bb]uild/
+[Bb]uilds/
+[Ll]ogs/
+[Uu]ser[Ss]ettings/
+
+# Unity 项目设置和缓存
+Library/
+ProjectSettings/AssetSettings.asset
+ProjectSettings/EditorBuildSettings.asset
+ProjectSettings/ProjectVersion.txt
+
+# 自动生成的 VS/MD 解决方案和项目文件
+*.csproj
+*.unityproj
+*.sln
+*.suo
+*.userprefs
+
+# 资源导入缓存
+*.pidb.meta
+*.pdb.meta
+
+# ============= #
+# 操作系统文件 #
+# ============= #
+
+# macOS
+.DS_Store
+._*
+
+# Windows
+Thumbs.db
+Desktop.ini
+
+# ============= #
+# 其他需要忽略的文件 #
+# ============= #
+
+# 自动保存的 VS 文件
+*.aps
+*.ncb
+*.opendb
+
+# 日志文件
+*.log
+*.bak
+
+# 压缩包/二进制文件
+*.zip
+*.7z
+*.dll
+*.exe
+*.bin
+
+# 第三方插件/包（如 node_modules）
+[Aa]ssets/Plugins/*
+[Aa]ssets/Standard Assets/*
+[Aa]ssets/Pro Standard Assets/*
+.idea/.idea.Dungeon Gunner/.idea/workspace.xml
