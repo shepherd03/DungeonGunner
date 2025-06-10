@@ -22,6 +22,7 @@ ProjectSettings/ProjectVersion.txt
 *.sln
 *.suo
 *.userprefs
+*.idea
 
 # 资源导入缓存
 *.pidb.meta
