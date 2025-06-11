@@ -27,12 +27,12 @@ public static class EditorInitializationManager
             {
                 try
                 {
-                    if (!initializable.NeedInitialize)
+                    if (!initializable.EditorInitialize(out string errorMessage))
                     {
-                        Debug.Log($"{component.name}跳过初始化");
+                        Debug.LogError(errorMessage);
                         continue;
                     }
-                    initializable.EditorInitialize();
+                    
                     count++;
                     Debug.Log($"{component.name}初始化完毕");
                 }

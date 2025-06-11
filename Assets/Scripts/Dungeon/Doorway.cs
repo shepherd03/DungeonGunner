@@ -22,4 +22,19 @@ public class Doorway
     public bool isConnected = false;
     [HideInInspector]
     public bool isUnavailable = false;
+
+    public Doorway DeepCopy()
+    {
+        Doorway newDoorWay = new Doorway();
+        newDoorWay.position = position;
+        newDoorWay.orientation = orientation;
+        newDoorWay.doorPrefab = doorPrefab;
+        newDoorWay.isConnected = isConnected;
+        newDoorWay.isUnavailable = isUnavailable;
+        newDoorWay.doorwayStartCopyPosition = doorwayStartCopyPosition;
+        newDoorWay.doorwayCopyTileWidth = doorwayCopyTileWidth;
+        newDoorWay.doorwayCopyTileHeight = doorwayCopyTileHeight;
+        
+        return newDoorWay;
+    }
 }

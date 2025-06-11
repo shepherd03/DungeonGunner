@@ -45,3 +45,4 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   roomNodeTypeList: {fileID: 11400000, guid: 77335c9aaa2e8aa4382f6cc4c47944b2, type: 2}
+  dimmedMaterial: {fileID: -876546973899608171, guid: a35e9f660aeac4b4188308b3cef079f7, type: 3}

@@ -35,16 +35,27 @@ public class GameManager : SingletonMonobehaviour<GameManager>, IAutoInitializab
 
     private void PlayDungeonLevel(int dungeonLevelListIndex)
     {
+        bool dungeonBuildSuccess = DungeonBuilder.Instance.GenerateDungeon(dungeonLevelList[dungeonLevelListIndex]);
+        if (!dungeonBuildSuccess)
+        {
+            Debug.LogError("无法构造地牢");
+        }
     }
 
 #if UNITY_EDITOR
-    public void EditorInitialize()
+    public bool EditorInitialize(out string errorMessage)
     {
-        dungeonLevelList = AssetFinder.FindAssets<DungeonLevelSO>();
+        errorMessage = "";
+        var foundAsset = AssetFinder.FindAssets<DungeonLevelSO>();
+        if (foundAsset == null)
+        {
+            errorMessage = AssetErrorMsg.NotFound<DungeonLevelSO>();
+            return false;
+        }
+
+        dungeonLevelList = foundAsset;
+        return true;
     }
-
-    public bool NeedInitialize => dungeonLevelList == null || dungeonLevelList.Count == 0;
-
 
 #endif
 }
