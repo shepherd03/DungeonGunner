@@ -19,6 +19,8 @@ public class GameResources : MonoBehaviour, IAutoInitializable
     }
 
     public RoomNodeTypeListSO roomNodeTypeList;
+    
+    public CurrentPlayer currentPlayer;
 
     public Material dimmedMaterial;
 
