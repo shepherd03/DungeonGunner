@@ -547,9 +547,9 @@ Camera:
     y: 0
     width: 1
     height: 1
-  near clip plane: 0.1
-  far clip plane: 5000
-  field of view: 40
+  near clip plane: 0.3
+  far clip plane: 1000
+  field of view: 60
   orthographic: 1
   orthographic size: 8.4375
   m_Depth: -1
@@ -721,7 +721,13 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 4306c31cea2840329b235aefa53bd5c2, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  dungeonLevelList: []
+  dungeonLevelList:
+  - {fileID: 11400000, guid: f812695e7194ffe449b5119ede8ddcb0, type: 2}
+  - {fileID: 11400000, guid: 64252ea6bd26e7a45b95383e966a2838, type: 2}
+  - {fileID: 11400000, guid: e2020d71d5727a447b789bee17a5a29b, type: 2}
+  - {fileID: 11400000, guid: ddd54924bb1936540bce44bb3b8016b0, type: 2}
+  - {fileID: 11400000, guid: 2e96ee5fe2dafbe4bb204833d3f7b423, type: 2}
+  - {fileID: 11400000, guid: dae9f9dcdbb301d4ebd129bd5a54ffb1, type: 2}
   currentDungeonLevelListIndex: 0
   gameState: 0
 --- !u!4 &1254675474
@@ -731,6 +737,50 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1254675472}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &1272556083
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1272556085}
+  - component: {fileID: 1272556084}
+  m_Layer: 0
+  m_Name: DungeonBuilder
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!114 &1272556084
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1272556083}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 16fa1739eef34686828017c1068675d3, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!4 &1272556085
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1272556083}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
@@ -841,3 +891,4 @@ SceneRoots:
   - {fileID: 129114305}
   - {fileID: 224874423}
   - {fileID: 1254675474}
+  - {fileID: 1272556085}
