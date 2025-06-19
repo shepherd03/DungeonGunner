@@ -72,10 +72,7 @@ AnimatorStateTransition:
   m_Name: 
   m_Conditions:
   - m_ConditionMode: 1
-    m_ConditionEvent: rollDown
-    m_EventTreshold: 0
-  - m_ConditionMode: 1
-    m_ConditionEvent: aimUp
+    m_ConditionEvent: rollRight
     m_EventTreshold: 0
   m_DstStateMachine: {fileID: 0}
   m_DstState: {fileID: -8817928625899225280}
@@ -399,10 +396,7 @@ AnimatorStateTransition:
   m_Name: 
   m_Conditions:
   - m_ConditionMode: 1
-    m_ConditionEvent: rollDown
-    m_EventTreshold: 0
-  - m_ConditionMode: 1
-    m_ConditionEvent: aimUp
+    m_ConditionEvent: rollUp
     m_EventTreshold: 0
   m_DstStateMachine: {fileID: 0}
   m_DstState: {fileID: 3326601704611750762}
@@ -816,10 +810,7 @@ AnimatorStateTransition:
   m_Name: 
   m_Conditions:
   - m_ConditionMode: 1
-    m_ConditionEvent: rollDown
-    m_EventTreshold: 0
-  - m_ConditionMode: 1
-    m_ConditionEvent: aimUp
+    m_ConditionEvent: rollLeft
     m_EventTreshold: 0
   m_DstStateMachine: {fileID: 0}
   m_DstState: {fileID: -2275457596114527698}
@@ -1089,9 +1080,6 @@ AnimatorStateTransition:
   m_Conditions:
   - m_ConditionMode: 1
     m_ConditionEvent: rollDown
-    m_EventTreshold: 0
-  - m_ConditionMode: 1
-    m_ConditionEvent: aimUp
     m_EventTreshold: 0
   m_DstStateMachine: {fileID: 0}
   m_DstState: {fileID: -7981495050049911507}
