@@ -544,9 +544,9 @@ Camera:
   m_NormalizedViewPortRect:
     serializedVersion: 2
     x: 0
-    y: 0.055555556
-    width: 0.33333334
-    height: 0.3333333
+    y: 0
+    width: 1
+    height: 1
   near clip plane: 0.3
   far clip plane: 1000
   field of view: 60
@@ -607,63 +607,6 @@ MonoBehaviour:
   m_CropFrameX: 0
   m_CropFrameY: 0
   m_StretchFill: 0
---- !u!1001 &1078285497
-PrefabInstance:
-  m_ObjectHideFlags: 0
-  serializedVersion: 2
-  m_Modification:
-    serializedVersion: 3
-    m_TransformParent: {fileID: 0}
-    m_Modifications:
-    - target: {fileID: 1242154796280076410, guid: 92c43fb478fbb9741b05ad7ea2b97461, type: 3}
-      propertyPath: m_LocalPosition.x
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 1242154796280076410, guid: 92c43fb478fbb9741b05ad7ea2b97461, type: 3}
-      propertyPath: m_LocalPosition.y
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 1242154796280076410, guid: 92c43fb478fbb9741b05ad7ea2b97461, type: 3}
-      propertyPath: m_LocalPosition.z
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 1242154796280076410, guid: 92c43fb478fbb9741b05ad7ea2b97461, type: 3}
-      propertyPath: m_LocalRotation.w
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 1242154796280076410, guid: 92c43fb478fbb9741b05ad7ea2b97461, type: 3}
-      propertyPath: m_LocalRotation.x
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 1242154796280076410, guid: 92c43fb478fbb9741b05ad7ea2b97461, type: 3}
-      propertyPath: m_LocalRotation.y
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 1242154796280076410, guid: 92c43fb478fbb9741b05ad7ea2b97461, type: 3}
-      propertyPath: m_LocalRotation.z
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 1242154796280076410, guid: 92c43fb478fbb9741b05ad7ea2b97461, type: 3}
-      propertyPath: m_LocalEulerAnglesHint.x
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 1242154796280076410, guid: 92c43fb478fbb9741b05ad7ea2b97461, type: 3}
-      propertyPath: m_LocalEulerAnglesHint.y
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 1242154796280076410, guid: 92c43fb478fbb9741b05ad7ea2b97461, type: 3}
-      propertyPath: m_LocalEulerAnglesHint.z
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 3254659713641028343, guid: 92c43fb478fbb9741b05ad7ea2b97461, type: 3}
-      propertyPath: m_Name
-      value: TheThief
-      objectReference: {fileID: 0}
-    m_RemovedComponents: []
-    m_RemovedGameObjects: []
-    m_AddedGameObjects: []
-    m_AddedComponents: []
-  m_SourcePrefab: {fileID: 100100000, guid: 92c43fb478fbb9741b05ad7ea2b97461, type: 3}
 --- !u!1 &1141388776
 GameObject:
   m_ObjectHideFlags: 0
@@ -949,4 +892,3 @@ SceneRoots:
   - {fileID: 224874423}
   - {fileID: 1254675474}
   - {fileID: 1272556085}
-  - {fileID: 1078285497}
